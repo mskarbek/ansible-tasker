@@ -1,0 +1,5 @@
+---
+- hosts:
+    - localhost
+  tasks:
+    - git: repo=git@bitbucket.org:mskarbek/ansible-test.git dest=/tmp/git_test
